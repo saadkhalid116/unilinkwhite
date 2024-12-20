@@ -1,0 +1,977 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    letter-spacing: 0px;
+
+
+}
+
+.hero-section {
+    background: url('Rectangle\ 1.png') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width: 500px) {
+.hero-section {
+    background: url('Rectangle\ home\ mobile.png') no-repeat center center/cover;
+    height: 65vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+}
+
+.hero-section-product {
+    background: url('product\ Rectangle.png') no-repeat center center/cover;
+    height: 57vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section-fulfillment {
+    background: url('Rectangle\ fulfillment.png') no-repeat center center/cover;
+    height: 57vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section-contact {
+    background: url('Rectangle\ contact.png') no-repeat center center/cover;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section-privacy {
+    background: url('Rectangle\ privacy.png') no-repeat center center/cover;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.primary-navbar .nav-link {
+    color: inherit; /* Default color */
+    box-sizing: border-box; /* Prevent layout shifts */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover transitions */
+}
+
+.primary-navbar .nav-link:hover {
+    transform: scale(1.1); /* Slightly grow the link */
+    font-weight: 1000; /* Keep boldness moderate to avoid size change */
+    color:#FFFFFF;
+}
+
+.navbar {
+    background-color: transparent !important; /* Retain navbar style */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    font-weight: 600;
+  
+}
+
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbar-brand1 img {
+    height: 60px;
+}
+
+@media (max-width: 584px) {
+    .navbar-brand img {
+        height: 45px;
+    }
+
+}
+
+.offcanvas {
+    background-color: #0056FF; /* Set the background color for the offcanvas menu */
+    color: white;
+    width: 55%; /* Customize the width of the menu */
+}
+
+
+.offcanvas .nav-link {
+    font-size: 22px;
+    font-weight: 500;
+    color: white; /* Ensures the links are white */
+    text-decoration: none;
+}
+
+.offcanvas .nav-link:hover {
+    text-decoration: underline;
+    
+}
+
+.offcanvas-header .btn-close {
+    filter: invert(1); /* Makes the close button white */
+}
+
+
+.register-btn {
+    background-color: #FFC65E;
+    border: none;
+    color: #1E1E1E;
+    padding: 8px 45px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.register-btn:hover {
+    background-color: #FFA616;
+}
+
+.register-btn2{
+    background-color: #FFC65E;
+    border: none;
+    color: #1E1E1E;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 45px;
+}
+
+.register-btn2:hover {
+    background-color: #FFA616;
+    color: #1E1E1E;
+
+}
+
+@media (max-width: 550px) {
+    .register-btn2 {
+        background-color: #FFC65E;
+        border: none;
+        color: #1E1E1E;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 14px;
+        padding: 6px 20px;
+}
+
+}
+
+@media (max-width: 991px) {
+    .register-btn {
+    background-color: #FFC65E;
+    border: none;
+    color: #1E1E1E;
+    padding: 8px 45px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+}
+
+.join-btn {
+    background-color: #0D6EFD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 85%;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+}
+
+.join-btn:hover {
+    background-color: #0061E0; /* Change to the new blue color on hover */
+    cursor: pointer; /* Ensure the cursor is a pointer when hovering */
+}
+
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .join-btn {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 95%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .join-btn {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 95%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .join-btn {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 85%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 767px) {
+    .join-btn {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 95%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 499px) {
+    .join-btn {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 99%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+  }
+
+  
+.width-join{
+    width: 96%;
+    margin-right: auto; /* Center horizontally */
+    margin-left: 0; 
+}
+
+  .join-btn1 {
+    background-color: #0D6EFD;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 85%;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+}
+
+.join-btn1:hover {
+    background-color: #0061E0; /* Change to the new blue color on hover */
+    cursor: pointer; /* Ensure the cursor is a pointer when hovering */
+}
+
+
+@media (min-width: 1201px) and (max-width: 2000px) {
+    .join-btn1 {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 85%;
+        margin-right: auto; /* Center horizontally */
+        margin-left: 10px;
+
+
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+  }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .join-btn1 {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 95%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .join-btn1 {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 85%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 500px) and (max-width: 767px) {
+    .join-btn1 {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 95%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 499px) {
+    .join-btn1 {
+        background-color: #0D6EFD;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px;
+        width: 99%;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+  }
+  
+
+  
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: white !important;
+    font-size: 14px;
+
+}
+
+
+
+
+.navbar-toggler {
+    border-color: white;
+    border: none;       
+    box-shadow: none;   
+
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;   
+}
+
+.navbar-toggler-icon {
+    background-image: url("toggler.png");
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.text-heading {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .text-heading {
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+  }
+
+  @media (min-width: 192px) and (max-width: 538px) {
+    .text-heading {
+      font-size: 32px;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+  }
+
+  .text-product {
+    font-size: 20px;
+    color: #212529;  
+    font-weight: 500;
+  }
+
+  @media (min-width: 192px) and (max-width: 500px) {
+    .text-product {
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 500;
+    }
+  }
+h10 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.products-font-main{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+@media (max-width: 500px) {
+    .products-font-main{
+        font-size: 32px;
+        font-weight: 700;
+    }
+  
+  }
+
+.card {
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card-title {
+        font-size: 26px;
+        font-weight: 700;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    .card-title {
+        font-size: 24px;
+        font-weight: 700;
+    }
+  
+  }
+
+  @media (min-width: 308px) and (max-width: 500px) {
+    .card-title {
+        font-size: 30px;
+        font-weight: 700;
+    }
+  
+  }
+  .card-body-blue:hover {
+    background: linear-gradient(to bottom, transparent 20%, #007bff 20%); /* Blue starts at 20% from the top */
+    color: white; /* Change text color to white for contrast */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  }
+
+.card-body-blue:hover h5,
+.card-body-blue:hover p,
+.card-body-blue:hover .card-subtitle {
+  color: white; /* Explicitly set text color for all child elements */
+}
+
+.card-body-blue h5{
+    color: #0D6EFD;
+}
+ 
+
+.card-subtitle {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+
+.card-subtitle1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #212529;
+}
+
+.bg-primary .card-title {
+    color: white;
+}
+
+.bg-primary .card-text {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+
+
+
+.custom-width-lg {
+    width: 100%; /* Default for all screens */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .custom-width-lg {
+        width: 92%; /* Reduce width for lg screens */
+        margin-left: auto; /* Center horizontally */
+        margin-right: auto; /* Center horizontally */
+    }
+}
+
+.split-background {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .split-background {
+    height: 80vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+@media (max-width: 600px) {
+    .split-background {
+    height: 70vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 450px) {
+    .split-background {
+    height: 60vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 400px) {
+    .split-background {
+    height: 50vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, white 40%, #0056FF 40%);
+    position: relative;
+    text-align: center;
+}
+
+}
+.content-wrapper {
+    z-index: 02; /* Ensure content appears above the background */
+}
+
+.split-background img {
+    width: 80%; /* Adjust width as needed */
+    border-radius: 30px; /* Rounded edges for the image */
+    object-fit: cover;
+}
+
+.custom-section {
+    position: relative;
+    background-color: white;
+    padding-bottom: 0px; /* Create space for blue background */
+}
+
+.custom-section .blue-bg {
+    background-color: #0056FF; /* Blue background color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Half blue background */
+    z-index: 1;
+}
+
+@media (max-width: 992px) {
+    .custom-section .blue-bg {
+        background-color: #0056FF; /* Blue background color */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 62%; /* Half blue background */
+        z-index: 1;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .custom-section .blue-bg {
+        background-color: #0056FF; /* Blue background color */
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70%; /* Half blue background */
+        z-index: 1;
+    }
+
+}
+
+#responsive-image {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #responsive-image {
+        content: url('joinus-image.png'); /* Replace with your new image path */
+        width: 100%;
+    }
+}
+
+
+
+
+.join-font{
+    font-size: 40px;
+}
+
+@media (max-width: 500px) {
+    .join-font{
+        font-size: 32px;
+    }
+}
+
+.join-p-font{
+    font-size: 24px;
+    width: 46%;
+}
+
+@media (max-width: 1400px) {
+    .join-p-font{
+        width: 53%;
+    }
+   
+    
+}
+
+@media (max-width: 1200px) {
+    .join-p-font{
+        width: 62%;
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .join-p-font{
+        width: 83%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .join-p-font{
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .join-p-font{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 500px) {
+    .join-p-font{
+        font-size: 14px;
+    }
+    
+}
+.custom-content {
+    position: relative;
+    z-index: 2;
+}
+
+.custom-image img {
+    border-radius: 15px; /* Rounded corners for the image */
+}
+
+.register-btn {
+    background-color: #FFD166;
+    color: black;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+}
+
+.register-btn:hover {
+    background-color: #FFA616; /* Slightly darker on hover */
+    color: black;
+}
+.move-image {
+    transform: translateY(20px); /* Moves the image 50px down */
+}
+
+.register-btn1 {
+    background-color: #FFC65E; /* Yellow color */
+    border: none;
+    color: #1E1E1E;
+    padding: 10px 255px;
+    font-size: 24px;
+    border-radius: 50px; /* Rounded button */
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+
+}
+
+@media (max-width: 800px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 270px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 270px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 220px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 220px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 190px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 160px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .register-btn1 {
+        background-color: #FFC65E; /* Yellow color */
+        border: none;
+        color: #1E1E1E;
+        padding: 10px 130px; /* Increase padding for larger button */
+        font-size: 16px;
+        border-radius: 25px; /* Rounded button */
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+
+.register-btn1:hover {
+    background-color: #FFA616; /* Slightly darker yellow on hover */
+}
+
+h2, p {
+    margin: 0;
+}
+
+.rounded-container {
+    background-color: #F8F8F8; /* Light gray background */
+    border-radius: 20px; /* Slight rounding of corners */
+    padding: 30px; /* Add some internal spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+}
+
+.responsive-paragraph {
+    max-width: 74%; /* Default width for screens >= 992px */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+@media (max-width: 991.98px) {
+    .responsive-paragraph {
+        max-width: 90%; /* Set width to 80% for screens < 992px */
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-responsive-font{
+        font-size: 17px;
+    }
+}
+
+.responsive-text-contact {
+    font-size: 20px; /* Default font size for larger screens */
+}
+
+@media (max-width: 500px) {
+    .responsive-text-contact {
+        font-size: 17px; /* Adjust font size for smaller screens */
+    }
+}
+
+.filfillment-fornt{
+    font-size: 18px;
+}
+
+
+
+ul.list-unstyled li a {
+    font-weight: 500;
+    display: inline-block; /* Ensure the width is applied */
+    width: 200px; /* Adjust width as needed */
+    text-decoration: none;
+    color: #212529 /* Default text color */
+}
+
+
+ul.list-unstyled li a:hover {
+    font-weight: 900; /* Bold on hover */
+    transition: font-weight 0.2s ease;
+    color: #212529; /* Default text color */
+
+}
+
+ul.list-unstyled li a.no-hover,
+ul.list-unstyled li a.no-hover:hover {
+    font-weight: 500; /* Keep the original font weight */
+    color: #212529; /* Keep the default color */
+    text-decoration: none; /* Override underline if needed */
+    transition: none; /* Disable transition */
+}
+
+.email-link {
+    text-decoration: none; /* No underline by default */
+    font-weight: 500; /* Default weight */
+    color: inherit; /* Use inherited color */
+    transition: font-weight 0.2s ease, text-decoration 0.2s ease; /* Smooth transition */
+  }
+  
+  .email-link:hover {
+    text-decoration: underline; /* Underline on hover */
+    font-weight: bold; /* Make it bold on hover */
+  }
